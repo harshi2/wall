@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Wallpaper",
+    "description": "Wallpaper",
+    "tags": [
+        "Windows",
+        "Wallpaper",
+        "Visual studio"
+        
+    ],
+    "iconUri": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.planwallpaper.com%2Fstatic%2Fimages%2Fbutterfly-hq-wallpaper_09354994_256.jpg&imgrefurl=https%3A%2F%2Fwww.planwallpaper.com%2Fwallpapers&docid=JOaMXT8XoKk2BM&tbnid=5ybxWnnvyJemBM%3A&vet=10ahUKEwjnu8f_wp7UAhVDo5QKHXbJDSgQMwg_KAEwAQ..i&w=2880&h=1800&bih=662&biw=1366&q=wallpapers%20images&ved=0ahUKEwjnu8f_wp7UAhVDo5QKHXbJDSgQMwg_KAEwAQ&iact=mrc&uact=8",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File wallpp.ps1"
+    }
+}
